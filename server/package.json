@@ -1,0 +1,16 @@
+{
+    "name": "downloader-server",
+    "type": "module",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.19.2",
+        "uint8-util": "2.2.5",
+        "webtorrent": "^2.5.0"
+    },
+    "overrides": {
+        "uint8-util": "2.2.5"
+    }
+}
